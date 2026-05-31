@@ -1,0 +1,13 @@
+[package]
+name = "lau-error-correcting-codes"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-error-correcting-codes"
+description = "Error-correcting codes: parity, Hamming, cyclic, Reed-Solomon, linear codes, convolutional/Viterbi, CRC, and Shannon bounds for reliable agent communication"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+
+[dev-dependencies]
